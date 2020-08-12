@@ -64,7 +64,7 @@ namespace custom {
         return false;
     }
 
-    export function alfFizzBuzz() {
+    export function microFizzBuzz() {
         for (let i = 1; i <= 16; i++) {
             if (hasDigit(i, 3))
             {

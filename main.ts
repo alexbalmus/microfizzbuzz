@@ -1,1 +1,1 @@
-custom.alfFizzBuzz();
+custom.microFizzBuzz();
