@@ -38,7 +38,7 @@ namespace custom {
 
     function displayMessage(message: string) {
         console.log(message);
-        basic.showString(message);
+        basic.showString(message, 130);
         basic.showIcon(IconNames.SmallDiamond);
         basic.clearScreen();
     }
@@ -68,10 +68,9 @@ namespace custom {
         for (let i = 1; i <= 16; i++) {
             if (hasDigit(i, 3))
             {
-                displayMessage("MICROBIT");
+                displayMessage("MICRO:BIT");
             }
             else if (i%15 == 0) {
-
                 displayMessage("FIZZ-BUZZ");
             }
             else if (i%3 == 0) {
